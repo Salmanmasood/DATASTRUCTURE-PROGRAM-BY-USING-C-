@@ -1085,7 +1085,11 @@ namespace testing
                             break;
 
                         case 9:
-
+                             Console.ForegroundColor = ConsoleColor.Yellow;
+                            Console.WriteLine("----------------------------APPENDING THE ARRAY A AND B----------------------------");
+                            Console.ForegroundColor = ConsoleColor.Cyan;
+                            Console.WriteLine("\n-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*");
+                            Program.append(mysum, mysum2);
 
                             break;
 
@@ -1590,15 +1594,33 @@ namespace testing
                     Console.Write(c[i] + " , ");
                 }
             }
+           
+            
+        }
+        //end of displaying c
+public static void append(int sizeoA,int sizeoB)
+        {
+            int x = 0;
+            for (int i = 1; i <=(sizeoA+sizeoB) ; i++)
+            {
+
+                if (i<=sizeoA)
+                {
+                    Console.Write(a[i]+", ");
+                    x++;
+                }
+                else
+                {
+                    Console.Write(b[i-x] + ", ");
+
+                }
 
 
-
-
-
-
+            }
 
 
 
         }
+
     }
 }
