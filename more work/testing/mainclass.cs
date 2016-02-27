@@ -19,19 +19,19 @@ namespace testing
 
         public void mainmenu(int flag1,int flagb)
         {
-            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.ForegroundColor = ConsoleColor.Magenta;
             Console.WriteLine("===================================MAIN MENU===================================");
             Console.ForegroundColor = ConsoleColor.White;
-            Console.WriteLine("\n\n1-Create an Array");
+            Console.WriteLine("\nPress 1 to Create an Array");
             if (flag1==1 || flagb ==1)
             {
-                Console.WriteLine("\n2-Insert element in Array");
-                Console.WriteLine("\n3-Replace element in Array");
-                Console.WriteLine("\n4-Delete element in Array");
-                Console.WriteLine("\n5-Search element in Array");
-                Console.WriteLine("\n6-Sort the Array");
-                Console.WriteLine("\n7-Display the Array");
-                Console.WriteLine("\n8-Switiching  Array");    
+                Console.WriteLine("\nPress 2 to Insert element in Array");
+                Console.WriteLine("\nPress 3 to Replace element in Array");
+                Console.WriteLine("\nPress 4 to Delete element in Array");
+                Console.WriteLine("\nPress 5 to Search element in Array");
+                Console.WriteLine("\nPress 6 to Sort the Array");
+                Console.WriteLine("\nPress 7 to Display the Array");
+                Console.WriteLine("\nPress 8 to Switiching  Array");    
             }
             
             if (flag1==1 && flagb==1)
@@ -39,18 +39,18 @@ namespace testing
                 Console.WriteLine("\n9-Append Arrays");
             }
 
-            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.ForegroundColor = ConsoleColor.Magenta;
             Console.WriteLine("\n-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*");
             Console.ForegroundColor = ConsoleColor.White;
             Console.Write("select a no. to perform the following the funtion: ");
-            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.ForegroundColor = ConsoleColor.Magenta;
           
         }
 
 
         public int createarray()
         {
-            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.ForegroundColor = ConsoleColor.Magenta;
             Console.WriteLine("============================CREATING AN ARRAY============================");
 
             Console.ForegroundColor = ConsoleColor.White;
@@ -74,7 +74,7 @@ namespace testing
         public int insertarray()
       {
 
-          Console.ForegroundColor = ConsoleColor.Yellow;
+          Console.ForegroundColor = ConsoleColor.Magenta;
           Console.WriteLine("=======================INSERTING ELEMENTS IN ARRAY=======================");
 
           Console.ForegroundColor = ConsoleColor.White;
@@ -87,7 +87,7 @@ namespace testing
       }
         public int replacearray()
         {
-            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.ForegroundColor = ConsoleColor.Magenta;
             Console.WriteLine("=======================REPLACEMENT ELEMENTS IN ARRAY=======================");
             Console.ForegroundColor = ConsoleColor.White;
             Console.WriteLine("\n1-Replacement by Elements");
@@ -101,7 +101,7 @@ namespace testing
         {
 
 
-            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.ForegroundColor = ConsoleColor.Magenta;
             Console.WriteLine("=======================DELETE ELEMENTS IN ARRAY=======================");
             Console.ForegroundColor = ConsoleColor.White;
             Console.WriteLine("\n1-Deletion by Elements");
@@ -113,7 +113,7 @@ namespace testing
         public int search()
         {
 
-            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.ForegroundColor = ConsoleColor.Magenta;
             Console.WriteLine("=======================SEARCH ELEMENTS IN ARRAY=======================");
             Console.ForegroundColor = ConsoleColor.White;
             Console.WriteLine("\n1-Search by Elements");
@@ -126,7 +126,7 @@ namespace testing
         }
         public int sort()
         {
-            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.ForegroundColor = ConsoleColor.Magenta;
             Console.WriteLine("=======================SORT ELEMENTS IN ARRAY=======================");
             Console.ForegroundColor = ConsoleColor.White;
             Console.WriteLine("\n1-Insertion Sort");
@@ -141,7 +141,7 @@ namespace testing
 
         public int switchingarray()
         {
-            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.ForegroundColor = ConsoleColor.Magenta;
             Console.WriteLine("=======================SWITCHING ARRAY=======================");
             Console.ForegroundColor = ConsoleColor.White;
             Console.WriteLine("\n1-Switch to Array A");

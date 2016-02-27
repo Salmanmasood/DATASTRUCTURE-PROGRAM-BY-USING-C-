@@ -33,44 +33,7 @@ namespace testing
                 Console.WriteLine("(Array B of size {0} has been created and its logical size is {1})", arraysizeofB, mysum);
 
             }
-            //if (menu==0)
-            //{
-            //    fst:
-            //    Console.ForegroundColor = ConsoleColor.Yellow;
-            //    Console.WriteLine("============================CREATING AN ARRAY A============================");
-            //    Console.ForegroundColor = ConsoleColor.White;
-            //    if (flaga == 0)
-            //    {
-
-            //        Console.Write("\nwhat physical size you want to allocate: ");
-            //        arraysizeofA = int.Parse(Console.ReadLine());
-            //        flaga = 1;
-
-            //        for (int i = 1; i <= arraysizeofA; i++) //error ha yhn exception lgani ha
-            //        {
-            //            a[i] = -12345678;
-            //        }
-            //        a[0] = arraysizeofA;
-            //        if (arraysizeofA <= 0 || arraysizeofA > 100)
-            //        {
-            //            Console.ForegroundColor = ConsoleColor.Red;
-            //            Console.WriteLine("\nLogical Error!!!\nphysical memory cannot exceed the input value!!");
-            //            Console.ForegroundColor = ConsoleColor.White;
-            //            Console.WriteLine("press any key to continue....");
-            //            Console.ReadKey();
-            //            goto fst;
-            //        }
-            //        Console.WriteLine("\nThe array of size " + arraysizeofA + " has been created!!! ");
-            //        selectionofarray = 'a';
-            //    }
-
-
-            //    menu = 1;
-                
-            //}
-            //Console.WriteLine("Press any key to go in the main menu...");
-            //Console.ReadKey();
-            //Console.Clear();
+            
             if (menu == 1)
             {
                 mainclass obm = new mainclass();
@@ -102,7 +65,7 @@ namespace testing
                             if (arrayselection == 1)
                             {
                             labelofarrayA:
-                                Console.ForegroundColor = ConsoleColor.Yellow;
+                                Console.ForegroundColor = ConsoleColor.Magenta;
                                 Console.WriteLine("============================CREATING AN ARRAY A============================");
                                 Console.ForegroundColor = ConsoleColor.White;
                                 if (flaga == 0)
@@ -145,7 +108,7 @@ namespace testing
                             {
 
                             labelofarrayB:
-                                Console.ForegroundColor = ConsoleColor.Yellow;
+                                Console.ForegroundColor = ConsoleColor.Magenta;
                                 Console.WriteLine("============================CREATING AN ARRAY B============================");
                                 Console.ForegroundColor = ConsoleColor.White;
                                 if (flagB == 0)
@@ -887,7 +850,7 @@ namespace testing
 
                         case 7:
                         c77:
-                            Console.ForegroundColor = ConsoleColor.Yellow;
+                            Console.ForegroundColor = ConsoleColor.Magenta;
                             Console.WriteLine("----------------------------DISPLAYING THE ARRAY----------------------------");
                             Console.ForegroundColor = ConsoleColor.Cyan;
                             Console.WriteLine("\n-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*");
@@ -1085,7 +1048,7 @@ namespace testing
                             break;
 
                         case 9:
-                             Console.ForegroundColor = ConsoleColor.Yellow;
+                             Console.ForegroundColor = ConsoleColor.Magenta;
                             Console.WriteLine("----------------------------APPENDING THE ARRAY A AND B----------------------------");
                             Console.ForegroundColor = ConsoleColor.Cyan;
                             Console.WriteLine("\n-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*");
@@ -1100,7 +1063,7 @@ namespace testing
                     }
 
 
-                    Console.ForegroundColor = ConsoleColor.Yellow;
+                    Console.ForegroundColor = ConsoleColor.Magenta;
                     Console.WriteLine("\n-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*");
                     Console.ForegroundColor = ConsoleColor.Green;
                     Console.Write("\npress 'm' or 'M' to go in the Main Menu");
@@ -1120,7 +1083,7 @@ namespace testing
             //------------------------------------------------------------------------------------
             //unreachablecode.
             l1:
-                Console.ForegroundColor = ConsoleColor.Yellow;
+                Console.ForegroundColor = ConsoleColor.Magenta;
                 Console.WriteLine("============================CREATING AN ARRAY A============================");
                 Console.ForegroundColor = ConsoleColor.White;
 
@@ -1150,7 +1113,7 @@ namespace testing
                     Console.WriteLine("You have been swtiched to Array A");
                     selectionofarray = 'a';
                 }
-                Console.ForegroundColor = ConsoleColor.Yellow;
+                Console.ForegroundColor = ConsoleColor.Magenta;
                 Console.WriteLine("\n-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*");
                 Console.ForegroundColor = ConsoleColor.Green;
                 Console.Write("\npress 'm' or 'M' to go in the Main Menu");
@@ -1160,7 +1123,7 @@ namespace testing
 
             l2:
 
-                Console.ForegroundColor = ConsoleColor.Yellow;
+                Console.ForegroundColor = ConsoleColor.Magenta;
                 Console.WriteLine("============================CREATING AN ARRAY B============================");
                 Console.ForegroundColor = ConsoleColor.White;
                 if (flagB == 0)
@@ -1187,7 +1150,7 @@ namespace testing
                     Console.WriteLine("\nThe array of size " + arraysizeofB + " has been created!!! ");
                     selectionofarray = 'b';
                 }
-                Console.ForegroundColor = ConsoleColor.Yellow;
+                Console.ForegroundColor = ConsoleColor.Magenta;
                 Console.WriteLine("\n-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*");
                 Console.ForegroundColor = ConsoleColor.Green;
                 Console.Write("\npress 'm' or 'M' to go in the Main Menu");
