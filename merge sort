@@ -1,0 +1,46 @@
+ public static int[] mergedsort(int[] c, int sizeofarrayA, int sizeofarrayB)
+        {
+
+            int p = 1, q = 1;
+            for (int i = 1; i <= (sizeofarrayA + sizeofarrayB); i++)
+            {
+
+                if (p > sizeofarrayA)
+                {
+                    c[i] = b[q];
+                    if (q < sizeofarrayB)
+                    {
+                        q++;
+                    }
+
+                }
+
+
+                else if (q > sizeofarrayB)
+                {
+                    c[i] = a[p];
+
+                    if (p < sizeofarrayA)
+                    {
+                        p++;
+                    }
+                }
+
+                else
+                {
+                    if (a[p] <= b[q])
+                    {
+                        c[i] = a[p];
+                        p++;
+                    }
+                    else
+                    {
+                        c[i] = b[q];
+                        q++;
+                    }
+                }
+            }
+            return c;
+        }
+
+        //end of merged sort
