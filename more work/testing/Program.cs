@@ -74,7 +74,7 @@ namespace testing
             if (menu == 1)
             {
                 mainclass obm = new mainclass();
-                obm.mainmenu();
+                obm.mainmenu(flaga,flagB);
                 try
                 {
                     input = int.Parse(Console.ReadLine());
@@ -95,7 +95,7 @@ namespace testing
                                 mainclass ex = new mainclass();
                                 ex.invalidinput();
                                 Console.WriteLine("press any key to go back.....");
-                                Console.ReadKey();
+                                Console.ReadKey(); 
                                 Console.Clear();
                                 goto c1;
                             }
@@ -1080,6 +1080,11 @@ namespace testing
                                 }
 
                             }
+
+
+                            break;
+
+                        case 9:
 
 
                             break;

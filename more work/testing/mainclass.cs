@@ -17,19 +17,27 @@ namespace testing
         }
 
 
-        public void mainmenu()
+        public void mainmenu(int flag1,int flagb)
         {
             Console.ForegroundColor = ConsoleColor.Yellow;
             Console.WriteLine("===================================MAIN MENU===================================");
             Console.ForegroundColor = ConsoleColor.White;
             Console.WriteLine("\n\n1-Create an Array");
-            Console.WriteLine("\n2-Insert element in Array");
-            Console.WriteLine("\n3-Replace element in Array");
-            Console.WriteLine("\n4-Delete element in Array");
-            Console.WriteLine("\n5-Search element in Array");
-            Console.WriteLine("\n6-Sort the Array");
-            Console.WriteLine("\n7-Display the Array");
-            Console.WriteLine("\n8-Switiching  Array");
+            if (flag1==1 || flagb ==1)
+            {
+                Console.WriteLine("\n2-Insert element in Array");
+                Console.WriteLine("\n3-Replace element in Array");
+                Console.WriteLine("\n4-Delete element in Array");
+                Console.WriteLine("\n5-Search element in Array");
+                Console.WriteLine("\n6-Sort the Array");
+                Console.WriteLine("\n7-Display the Array");
+                Console.WriteLine("\n8-Switiching  Array");    
+            }
+            
+            if (flag1==1 && flagb==1)
+            {
+                Console.WriteLine("\n9-Append Arrays");
+            }
 
             Console.ForegroundColor = ConsoleColor.Yellow;
             Console.WriteLine("\n-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*");
