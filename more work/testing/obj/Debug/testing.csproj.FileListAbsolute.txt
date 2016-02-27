@@ -1,0 +1,5 @@
+C:\Users\salman(AL-FARSI)\documents\visual studio 2013\Projects\testing\testing\bin\Debug\testing.exe.config
+C:\Users\salman(AL-FARSI)\documents\visual studio 2013\Projects\testing\testing\bin\Debug\testing.exe
+C:\Users\salman(AL-FARSI)\documents\visual studio 2013\Projects\testing\testing\bin\Debug\testing.pdb
+C:\Users\salman(AL-FARSI)\documents\visual studio 2013\Projects\testing\testing\obj\Debug\testing.exe
+C:\Users\salman(AL-FARSI)\documents\visual studio 2013\Projects\testing\testing\obj\Debug\testing.pdb
